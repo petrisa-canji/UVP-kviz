@@ -1,0 +1,67 @@
+[
+    {
+        "ime": "Owen Lars",
+        "MBTI": "ISTJ"
+    },
+    {
+        "ime": "C-3PO",
+        "MBTI": "ISFJ"
+    },
+    {
+        "ime": "Obi-Wan Kenobi",
+        "MBTI": "INFJ"
+    },
+    {
+        "ime": "Emperor Palpatine",
+        "MBTI": "INTJ"
+    },
+    {
+        "ime": "Chewbacca",
+        "MBTI": "ISTP"
+    },
+    {
+        "ime": "Bail Organa",
+        "MBTI": "ISFP"
+    },
+    {
+        "ime": "Luke Skywalker",
+        "MBTI": "INFP"
+    },
+    {
+        "ime": "Yoda",
+        "MBTI": "INTP"
+    },
+    {
+        "ime": "Han Solo",
+        "MBTI": "ESTP"
+    },
+    {
+        "ime": "Wicket the Ewok",
+        "MBTI": "ESFP"
+    },
+    {
+        "ime": "Qui-Gon Jinn",
+        "MBTI": "ENFP"
+    },
+    {
+        "ime": "R2-D2",
+        "MBTI": "ENTP"
+    },
+    {
+        "ime": "Darth Vader",
+        "MBTI": "ESTJ"
+    },
+    {
+        "ime": "Jar Jar Binks",
+        "MBTI": "ESFJ"
+    },
+    {
+        "ime": "Padme Amidala",
+        "MBTI": "ENFJ"
+    },
+    {
+        "ime": "Leia Organa",
+        "MBTI": "ENTJ"
+    },
+
+]
