@@ -1,4 +1,4 @@
 # UVP-kviz
-Kviz napisan v Pythonu za projektno nalogo pri predmetu Uvod v perogramiranje, študijsko leto 2019/2020.
+Kviz napisan v Pythonu za projektno nalogo pri predmetu Uvod v programiranje, študijsko leto 2019/2020.
 
-Kviz vsebuje vprašanja o četrtem, petem in šestem delu Star Wars sage. 
+Kviz vsebuje vprašanja iz prvih šestih filmov Star Wars sage. 
