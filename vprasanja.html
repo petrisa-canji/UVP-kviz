@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>STAR WARS OSEBNOSTNI KVIZ</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+              <style>
+                .container {
+                    display: flex;
+                    min-height: 100vh;
+                    height: 100vh;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                }
+                .question-form {
+                    background-color: #6ab446;
+                    padding: 30px;
+                    box-shadow: 1px 1px 5px -2px #000;
+                    width: 90%;
+                }
+                .question-form h1 {
+                    text-align: center;
+                    font-size: 18px;
+                }
+                .choices {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px auto;
+                }
+                .submit {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .header {
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+            </style>      
+    </head>
+    <body> <body>
+        <div class="container">
+            <div class="mb-5 header">{{id + 1}} / 20</div>
+            <form class="question-form" method="post" action="/submit">
+                <input type="hidden" name="question" value="{{id}}"/>
+                <h1>{{text}}</h1>
+
+                <hr/>
+
+                <div class="form-row choices">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="answer" id="radio1" value="0"
+                               checked="checked">
+                        <label class="form-check-label" for="radio1">Da</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="answer" id="radio3" value="2">
+                        <label class="form-check-label" for="radio3">Ne</label>
+                    </div>
+                </div>
+
+                <div class="form-row submit">
+                    <button type="submit" class="btn btn-primary">Nadaljuj</button>
+                </div>
+            </form>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+            </body>
+</html>
