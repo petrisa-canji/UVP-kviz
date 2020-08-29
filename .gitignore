@@ -1,1 +1,6 @@
-
++.pyc
++.etc/
++var/
++__pycache__/
++venv/
++.idea
