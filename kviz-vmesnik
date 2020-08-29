@@ -1,0 +1,83 @@
+def igra(Kviz):
+    print("\n ======== ZAČNI KVIZ ========")
+
+    if j[ch]["odgovor"][0] == odgovor[0].upper():
+                print("\n Pravilno!")
+            else:
+                print("\nNarobe...")
+
+def pravila(Kviz):
+    print(''' \n ======== PRAVILA ========
+    1. Vsak krog sestavlja 10 vprašanj, ki so Vam postavljena naključno. Da odgovorite, morate pritisniti A/B/C (lahko tudi a/b/c).
+    2. Vsako vprašanje Vam prinese do eno točko. Če odgovorite narobe, ne dobite minus točk, le 0 (za razliko od kvizov pri analizi ;).
+    3. Lahko si ustvarite uporabniški račun s pomočjo panela USTVARI RAČUN.
+    4. Lahko se prijavite s pomočjo panela PRIJAVA.
+    ''')
+
+def ustvari_racun(Kviz):
+    print("\n ======== USTVARI RAČUN ========")
+    if uporabnisko_ime in uporabnik.keys():
+        print("Račun s tem imenom že obstaja. \n May the Force be with you in se vrni na prijavo.")
+    else:
+        print("Uporabniški račun je bil uspešno ustvarjen, dobrodošli v Jedi order!")
+
+def prijava_racun(Kviz):
+    print('\n ======== PRIJAVA ========')
+
+    if uporabnisko_ime not in uporabnik.keys():
+        print("Račun s tem imenom ne obstaja. \n Prosim, najprej si ustvarite račun!")
+    elif uporabnisko_ime in uporabnik.keys():
+        if uporabniki[uporabnisko_ime][0] != geslo:
+            print("Vaše geslo ni pravilno.\n Prosim, ponovno vnestie geslo in poskusite znova.")
+        elif uporabniki[uporabnisko_ime][0]== geslo:
+            print("Uspešno ste se prijavili. \n")
+
+def odjava(Kviz, uporabnik):
+    if len(uporabnik) == 0:
+        print("Odjavljeni ste.")
+    else:
+        uporabnik = []
+        print("Uspešno ste se odjavili. May the Force be with you!")
+
+def pravila():
+    print(''' \n ======== PRAVILA ========
+    1. Vsak krog sestavlja 10 vprašanj, ki so Vam postavljena naključno. Da odgovorite, morate pritisniti A/B/C (lahko tudi a/b/c).
+    2. Vsako vprašanje Vam prinese do eno točko. Če odgovorite narobe, ne dobite minus točk, le 0 (za razliko od kvizov pri analizi ;).
+    3. Lahko si ustvarite uporabniški račun s pomočjo panela USTVARI RAČUN.
+    4. Lahko se prijavite s pomočjo panela PRIJAVA.
+    ''')
+
+def o_kvizu():
+    print(''' \n ======== O NASTANKU KVIZA (Ali Geneza) ========
+    Ta kviz je bil ustvarjen za projektno nalogo pri predmetu Programiranje 1, 2. semester leta 2019/2020. 
+    ''')
+
+def system(Kviz):
+    while moznost != 7:
+        print(' \n ======== MAY THE FORCE BE WITH YOU; KO REŠUJETE KVIZ! ========')
+        print('-----------------------------------------------------------------')
+        print('1. ZAČNI Z REŠEVANJEM')
+        print('2. DODAJ VPRAŠANJA')
+        print('3 USTVARI RAČUN')
+        print('4. PRIJAVA')
+        print('5. ODJAVA')
+        print('6. NAVODILA IGRE (če slučajno niste Jedi, ki lahko bere misli ustvarjalcev kviza)')
+        print('7. IZHOD')
+        print('8. GENEZA')
+        moznost = int(input('IZBERI MOŽNOST (in s tem izberi prihodnost)'))
+
+        
+
+def vprasanja_kviza(Kviz, uporabnik):
+    for uporabnik:
+        if len(uporabnik) == 2:
+            print('\n ======== DODAJ VPRAŠANJA ========')
+            vpr = input("Dodaj želeno vprašanje, Jedi Master: \n")
+            opt = []
+            print("Dodaj 3 možnosti odgovora, ki jih poimenuj (A, B, C)")
+
+            print( "Vprašanje je bilo uspešno dodano.")
+        else:
+             print("Nimate dovoljenja dodajati vprašanja. To je dovoljeno le adminom in Jedi Masters, you are but a Stormtrooper!")
+
+
