@@ -1,0 +1,120 @@
+[
+    {
+        "vprasanje": "Redko storite kaj iz čiste radovednosti.",
+        "mozni odgovori": [["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"], ["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"]]
+    },
+    {
+        "vprasanje": "Na svoja e-poštna sporočila poskušate odgovarjati, takoj ko je mogoče, in ne prenašate neurejenega e-poštnega predala.",
+        "mozni odgovori": [["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"], ["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"]]
+    },
+    {
+        "vprasanje": "Urejenost je za vas pomembnejša od prilagodljivosti.",
+        "mozni odgovori": [["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"], ["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"]]
+    },
+    {
+        "vprasanje": "Po navadi ste zelo motivirani in energični.",
+        "mozni odgovori": [["ENTJ", "ENFP", "ENFJ", "ENTP", "ESTP", "ESTJ", "ESFP", "ENFJ"], ["INTJ", "INFJ", "INFP", "INTP", "ISTP", "ISTJ", "ISFJ", "ISFP"]]
+    },
+    {
+        "vprasanje": "Za vas je pomembneje zagotoviti, da se nihče ne vznemiri, kot pa zmagati v debati.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Pogosto se počutite, kot da se morate opravičevati pred drugimi ljudmi.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Ni vam težko biti v središču pozornosti.",
+        "mozni odgovori": [["ENTJ", "ENFP", "ENFJ", "ENTP", "ESTP", "ESTJ", "ESFP", "ENFJ"], ["INTJ", "INFJ", "INFP", "INTP", "ISTP", "ISTJ", "ISFJ", "ISFP"]]
+    },
+    {
+        "vprasanje": "Imate se bolj za praktičnega kot pa ustvarjalnega človeka.",
+        "mozni odgovori": [["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"], ["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"]]
+    },
+    {
+        "vprasanje": "Ljudje vas lahko le redko vznemirijo.",
+        "mozni odgovori": [["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"], ["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"]]
+    },
+    {
+        "vprasanje": "Pogosto se težko vživite v čustva drugih ljudi.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Vaše razpoloženje se lahko zelo hitro spreminja.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "V pogovoru mora biti resnica pomembnejša od občutljivosti ljudi.",
+        "mozni odgovori": [["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"], ["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"]]
+    },
+    {
+        "vprasanje": "Pogosto ste zavistni do drugih.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Zanimiva knjiga ali videoigra sta pogosto boljša od družabnega dogodka.",
+        "mozni odgovori": [["INTJ", "INFJ", "INFP", "INTP", "ISTP", "ISTJ", "ISFJ", "ISFP"], ["ENTJ", "ENFP", "ENFJ", "ENTP", "ESTP", "ESTJ", "ESFP", "ENFJ"]]
+    },
+    {
+        "vprasanje": "Najpomembnejši del vsakega projekta je, da ste sposobni izdelati načrt in se ga držati.",
+        "mozni odgovori": [["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"], ["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"]]
+    },
+    {
+        "vprasanje": "Le redko vas prevzamejo fantazije in ideje.",
+        "mozni odgovori": [["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"], ["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"]]
+    },
+    {
+        "vprasanje": "Kadar se sprehajate v naravi, se pogosto zalotite, da ste globoko zatopljeni v mislih.",
+        "mozni odgovori": [["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"], ["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"]]
+    },
+    {
+        "vprasanje": "Kot starš bi raje videli, da vaš otrok odrase v prijaznega kot pa v pametnega človeka.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Ne pustite, da bi drugi ljudje vplivali na vaša dejanja.",
+        "mozni odgovori": [["INTJ", "ISTJ", "ENTJ", "ENTP", "ENFJ", "INFJ", "INTP", "ESTJ"], ["INFP", "ENFP", "ISFP", "ISFJ", "ESFJ", "ESFP", "ISTP", "ESTP"]]
+    },{
+        "vprasanje": "Na novem delovnem mestu ne potrebujete veliko časa, da se začnete vključevati v družabne dejavnosti.",
+        "mozni odgovori": [["INTJ", "INFJ", "INFP", "INTP", "ISTP", "ISTJ", "ISFJ", "ISFP"], ["ENTJ", "ENFP", "ENFJ", "ENTP", "ESTP", "ESTJ", "ESFP", "ENFJ"]]
+    },{
+        "vprasanje": "Ste bolj rojen improvizator kot pa skrben načrtovalec.",
+        "mozni odgovori": [["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"], ["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"]]
+    },
+    {
+        "vprasanje": "Vaša čustva vas nadzirajo bolj, kot vi nadzirate njih.",
+        "mozni odgovori": [["INFP", "ENFP", "ISFP", "ISFJ", "ESFJ", "ESFP", "ISTP", "ESTP"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Pogosto preživljate čas tako, da preučujete neresnične in nepraktične, toda mikavne ideje.",
+        "mozni odgovori": [["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"], ["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"]]
+    },
+    {
+        "vprasanje": "Raje improvizirate, kot pa da bi porabljali čas za pripravo podrobnega načrta.",
+        "mozni odgovori": [["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"], ["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"]]
+    },
+    {
+        "vprasanje": "Pogosto premišljujete o razlogih za človekov obstoj.",
+        "mozni odgovori": [["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"], ["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"]]
+    },
+    {
+        "vprasanje": "Ste razmeroma zadržan in tih človek.",
+        "mozni odgovori": [["INTJ", "INFJ", "INFP", "INTP", "ISTP", "ISTJ", "ISFJ", "ISFP"], ["ENTJ", "ENFP", "ENFJ", "ENTP", "ESTP", "ESTJ", "ESFP", "ENFJ"]]
+    },
+    {
+        "vprasanje": "Logika je po navadi pomembnejša od srca, kadar je treba sprejeti pomembne odločitve.",
+        "mozni odgovori": [["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"], ["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"]]
+    },
+    {
+        "vprasanje": "Brez vsakršnih težav si izdelate svoj osebni urnik in se ga držite.",
+        "mozni odgovori": [["INTJ", "ENTJ", "ENFJ", "INFJ", "ISTJ", "ESTJ", "ISFJ", "ESFJ"], ["INTP", "ENTP", "ENFP", "INFP", "ISFP", "ESFP", "ISTP", "ESTP"]]
+    },
+    {
+        "vprasanje": "Menite, da je treba spoštovati mnenja vseh, ne glede na to, ali so podprta z dejstvi ali ne.",
+        "mozni odgovori": [["ENFJ", "ENFP", "INFJ", "INFP", "ISFP", "ISFJ", "ESFP", "ESFJ"], ["ENTJ", "INTJ", "ENTP", "INTP", "ESTJ", "ISTJ", "ESTP", "ISTP"]]
+    },
+    {
+        "vprasanje": "Na splošno se bolj zanašate na svoje izkušnje kot pa na domišljijo.",
+        "mozni odgovori": [["ESTJ", "ESFJ", "ISFJ", "ISTJ", "ISFP", "ESTP", "ESFJ", "ISTP"], ["INTJ", "INFJ", "INTP", "ENTP", "ENTJ", "INFP", "ENFJ", "ENFP"]]
+    }
+]
