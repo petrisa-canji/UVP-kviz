@@ -4,6 +4,7 @@ import getpass #bere userinput, dokler user ne pritisne pass
 
 uporabnik = []
 
+
 def igra():
     print("\n ======== ZAČNI KVIZ ========")
     tocke = 0
