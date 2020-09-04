@@ -21,7 +21,7 @@ class Model:
     def odgovor(self, uporabnik, id, odgovor):
         vprasanje = self.vprasanja[id]
 
-        user.dodaj_tocke(self, vprasanje['mozni odgovori'][odgovor])
+        uporabnik.dodaj_tocke(self, vprasanje['mozni odgovori'][odgovor])
 
     def pridobitev_rezultatov(self, uporabnik):
         return sorted(zip(self.Star_Wars-junaki, uporabnik.points), key=lambda e: (-e[1], e[0]['ime']))
