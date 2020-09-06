@@ -47,6 +47,4 @@ class Uporabnik:
     def __init__(self):
         self.points = [0] * 16
 
-    def dodaj_tocke(self, model, Star_Wars_junaki):
-        for MBTI in Star_Wars_junaki:
-            self.points[model-get_Star_Wars_junaki(MBTI)] += 1
+   
