@@ -7,4 +7,12 @@ Upam, da boste zadovoljni s svojim rezultatom! :)
 May the Force be with you.
 
 
+# Za prihodnje
+Program bi potreboval še kakšen dober debugging session...
+
+# Dodatek za velike ljubitelje Star Wars franšize
+Leta 2019 je izšla igra, ki se imenuje Fallen Order, za katero je skupina The Hu posnela soundtrack. Med pesmimi je ena, za katero priporočam, da jo poslušate med reševanjem kviza. Imenuje se [Sugaan Essena](https://www.youtube.com/watch?v=YwutOqv4cGo). 
+
+# Genesis
 Kviz napisan v Pythonu za projektno nalogo pri predmetu Uvod v programiranje, študijsko leto 2019/2020.
+
