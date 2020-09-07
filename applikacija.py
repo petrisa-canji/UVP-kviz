@@ -14,7 +14,7 @@ def main():
 
 @rounte('/pravila')
 def pravila():
-    return template('kviz-pravila.html)
+    return template('kviz-pravila.html')
 
 @route('/vprasanje/<spr>')
 def vprasanje(spr):
