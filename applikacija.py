@@ -8,29 +8,33 @@ model = Model('vprasanja.json', 'Star_Wars_Junaki.json')
 def resource(filename):
     return static_file(filename, root='res/')
 
-@route('/vprasanje/<id>')
-def vprasanje(id):
-    id = int(id)
+@route('/')
+def main():
+    return template('kviz.html')
 
-    if not model.dobljena_vprasanja(id):
+@route('/vprasanje/<spr>')
+def vprasanje(spr):
+    spr = int(spr)
+
+    if not model.dobljena_vprasanja(spr):
         abort(404, 'Ni takšnega vprašanja.')
 
-    vprasanje = model.pridobite_vprasanja(id)
+    vprasanje = model.pridobite_vprasanja(spr)
 
-    return template('vprasanja.html', text=vprasanje['text'], id=id)
+    return template('vprasanja.html', text=vprasanje['text'], spr=spr)
 
 
 @route('/odgovor', method='POST')
 def odgovor():
-    id = int(request.forms.get('vprasanje'))
+    spr = int(request.forms.get('vprasanje'))
     answer = int(request.forms.get('odgovor'))
 
     uporabnik = model.sedanji_uporabnik()
-    model.odgovor(uporabnik, id, answer)
+    model.odgovor(uporabnik, spr, answer)
 
     #vrne na prvo stran
-    if model.dobljena_vprasanja(id + 1):
-        redirect('/vprasanja/{}'.format(id + 1))
+    if model.dobljena_vprasanja(spr + 1):
+        redirect('/vprasanja/{}'.format(spr + 1))
     else:
         redirect('/prikaz_rezultatov')
 
