@@ -12,6 +12,10 @@ def resource(filename):
 def main():
     return template('kviz.html')
 
+@rounte('/pravila')
+def pravila():
+    return template('kviz-pravila.html)
+
 @route('/vprasanje/<spr>')
 def vprasanje(spr):
     spr = int(spr)
