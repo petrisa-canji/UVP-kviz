@@ -1,7 +1,7 @@
 from bottle import route, run, template, request, abort, redirect, static_file
 from model import Model
 
-model = Model('vprasanja.json', 'Star Wars Junaki.json')
+model = Model('vprasanja.json', 'Star_Wars_Junaki.json')
 
 
 @route('/res/<filename:path>')

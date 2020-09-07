@@ -13,7 +13,7 @@ def igra():
             stevilo_vprasanj = len(j)
             ch = random.randint(0, stevilo_vprasanj - 1)
             #print("test")
-            #print(f"\nQ{i + 1} {j[ch]['vprasanje']}\n") 
+            #print(f"\nQ{i + 1} {j[ch]['vprasanje']}\n")
             print(f'\nQ{i + 1}{j[ch]["vprasanje"]}\n') #\n je new line
             #zgornja koda je zakomentirana in ponovno napisana, ker na enem računalniko ni pognalo, na drugem pa je, vrstici 15 in 16 sta posledici tega
 
@@ -21,16 +21,16 @@ def igra():
                 print(option)
             odgovor = input("\n Odgovor:")
 
-            if odgovor == "DA": #kako program šteje - če uporabnik izbere odgovor, kateri je bil označen z DA (za tem "DA" se skrivajo osebnosti), prišteje 1
+            if odgovor.upper() == "DA": #kako program šteje - če uporabnik izbere odgovor, kateri je bil označen z DA (za tem "DA" se skrivajo osebnosti), prišteje 1
                 tocke += 1
             else:
                 pass
 
-            
+
             del j[ch] #zbriše tisto vprašanje iz seznama vprašanj
-        
+
         #print("test")
-        #print(f"\n KONČNI REZULTAT: Število DA - {tocke}, Število NE - {10-tocke}") 
+        #print(f"\n KONČNI REZULTAT: Število DA - {tocke}, Število NE - {10-tocke}")
         print(f'\n KONČNI REZULTAT: Število DA - {tocke}, Število NE - {10-tocke}')  #f replaces the expressions with their values
         #zgornja koda je zakomentirana in ponovno napisana, ker na enem računalniko ni pognalo, na drugem pa je, vrstici 15 in 16 sta posledici tega
 
@@ -39,7 +39,7 @@ def igra():
 def vprasanja_kviza(): #omogoča možnost dodajanja vprašanj, če ima uporabnik administrativno vlogo (se prepozna po uporabniškem imenu)
     if len(uporabnik) == 0:
         print("Preden lahko dodajate vprašanja, se morate prijaviti!")
-    
+
     elif len(uporabnik) == 2:
         if uporabnik[1]:
             print('\n ======== DODAJ VPRAŠANJA ========')
@@ -58,8 +58,8 @@ def vprasanja_kviza(): #omogoča možnost dodajanja vprašanj, če ima uporabnik
                 json.dump(vprasanja, f)
                 f.truncate #truncate zmanjša velikost file-a
                 print( "Vprašanje je bilo uspešno dodano.")
-        
-        else: 
+
+        else:
             print("Nimate dovoljenja dodajati vprašanja. To je dovoljeno le adminom in Jedi Masters, you are but a Stormtrooper!")
 
 
@@ -68,7 +68,7 @@ def ustvari_racun(): #omogoča uporabniku ustvariti račun
     uporabnisko_ime = input("Izberite si UPORABNIŠKO IME, Youngling: ")
     geslo = getpass.getpass(prompt= 'Izberite si GESLO, Youngling: ')
     with open('uporabnik_account.json', 'r+') as uporabniski_racuni:
-        uporabniki = json.load(uporabniski_racuni)        
+        uporabniki = json.load(uporabniski_racuni)
 
         if uporabnisko_ime in uporabniki.keys():
             print("Račun s tem imenom že obstaja. \n May the Force be with you in se vrni na prijavo.")
@@ -116,7 +116,7 @@ def pravila(): #da ne bo igranje dvoumno, so tukaj pravila
 
 def o_kvizu():
     print(''' \n ======== O NASTANKU KVIZA (Ali Geneza) ========
-    Ta kviz je bil ustvarjen za projektno nalogo pri predmetu Programiranje 1, 2. semester leta 2019/2021. 
+    Ta kviz je bil ustvarjen za projektno nalogo pri predmetu Programiranje 1, 2. semester leta 2019/2021.
     ''')
 
 if __name__ == "__main__": #to se najprej pojavi v terminalu, ko se program zažene
@@ -156,4 +156,4 @@ if __name__ == "__main__": #to se najprej pojavi v terminalu, ko se program zaž
 
 
 
-   
+
