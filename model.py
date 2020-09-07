@@ -13,14 +13,14 @@ class Model:
         with open(Star_Wars_Junaki_path) as file:
             self.Star_Wars_Junaki = json.load(file)
 
-    def pridobite_vprasanja(self, id):
-        return self.vprasanja[id]
+    def pridobite_vprasanja(self, spr):
+        return self.vprasanja[spr]
     
-    def dobljena_vprasanja(self, id):
-        return 0 <= id < len(self.vprasanja)
+    def dobljena_vprasanja(self, spr):
+        return 0 <= spr < len(self.vprasanja)
 
-    def odgovor(self, uporabnik, id, odgovor):
-        vprasanje = self.vprasanja[id]
+    def odgovor(self, uporabnik, spr, odgovor):
+        vprasanje = self.vprasanja[spr]
         uporabnik.dodaj_tocke(self, vprasanje['mozni odgovori'][odgovor])
 
     def pridobitev_rezultatov(self, uporabnik):
